@@ -111,7 +111,6 @@
 			});
 		</script>
 	</head>  
-	        <marquee direction="left" scrollamount="5" behavior="scroll"><a href="https://site.lopobia.com/vote">REMEMBER TO VOTE FOR AWESOME REWARDS (CLICK ME)</a> // <a href="https://store.lopobia.com/">WANT COOL PERKS FOR SUPPORTING THE SERVER? VISIT OUR STORE! (CLICK ME)</a></marquee>
 		<body style="margin:0px;width:100vw;height:100vh;overflow:hidden;" id="game_frame">
 			<div id = "dividk">
 			<h1 id="clienttitle">lopobia network</h1>
@@ -119,7 +118,8 @@
 			<p id="progresstext">0%</p>
 			<div id="meter">
 			<span style="width: 0%" id="progress"></span>
-			</div>	        
+			</div>
+		        <marquee direction="left" scrollamount="5" behavior="scroll"><a href="https://site.lopobia.com/vote">REMEMBER TO VOTE FOR AWESOME REWARDS (CLICK ME)</a> // <a href="https://store.lopobia.com/">WANT COOL PERKS FOR SUPPORTING THE SERVER? VISIT OUR STORE! (CLICK ME)</a></marquee>
 			<script type="text/javascript">
 				function updateTextProgress(event, epkSize){
 					document.getElementById("progresstext").innerText = Math.round(event.loaded/epkSize*10000)/100 + "%" + "(" + Math.round(event.loaded/1024/1024) + "MB" + "/" +  Math.round(epkSize/1024/1024) + "MB )";
